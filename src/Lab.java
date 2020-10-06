@@ -52,9 +52,11 @@ public class Lab {
         int i = 0;
         int av=0;
         for(i=0 ; i<currentSize ; i++){
-             av =+students[i].getGrade();
+             av +=students[i].getGrade();
+            System.out.println(av);
         }
         avg = av/currentSize;
+
     }
 
     public void print(){
