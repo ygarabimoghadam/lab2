@@ -53,7 +53,7 @@ public class Lab {
         int av=0;
         for(i=0 ; i<currentSize ; i++){
              av +=students[i].getGrade();
-            System.out.println(av);
+           // System.out.println(av);
         }
         avg = av/currentSize;
 
