@@ -12,6 +12,11 @@ public class Lab {
         this.students = new Student[capacity];
     }
 
+    /**
+     *
+     * @param std
+     * add student into the lab
+     */
     public void enrollStudent(Student std){
         if(currentSize<capacity){
             students[currentSize] = std;
@@ -48,6 +53,9 @@ public class Lab {
         return avg;
     }
 
+    /**
+     * calculate avarge of all the student's grade.
+     */
     public void calculateAvg(){
         int i = 0;
         int av=0;
